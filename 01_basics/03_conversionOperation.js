@@ -24,7 +24,30 @@ console.log(valueInNumber);
 // "" => false
 // "hitesh" => true
 
-let someNumber = 33
-let stringNumber = String(someNumber)
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// let someNumber = 33
+// let stringNumber = String(someNumber)
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
+
+// ************ Operatons **************
+
+let value = 3
+let negValue = -value
+// console.log(negValue);
+
+// console.log(2**3); this is 2 rais to power 3
+// console.log(2%3); This is to find out the remainder
+
+let str1 = "Hello"
+let str2 = " gaurav"
+
+let str3 = str1 + str2
+
+// console.log(str3);
+
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + 2 + 2);
+// console.log(1 + 2 + "2");
+
+console.log(true);

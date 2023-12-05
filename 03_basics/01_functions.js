@@ -27,16 +27,34 @@ const result = addTwoNumbers(3, 5)
 
 console.log("Result: ", result);
 
-function loginUserMessage(username){
+function loginUserMessage(username = "Gaurav"){ //"Gaurav" here is the default value of the function. if there is nothing assigned in the function it will say gaurav is logged in
     if(!username){
         console.log("Please enter a username");
         return
     }
-    return`${username} just logged in` //here we have to merge a variable with a message. hence, we need to use string interpolation. so we use ` here
+    //return`${username} just logged in` //here we have to merge a variable with a message. hence, we need to use string interpolation. so we use ` here
+    else{
+
+        return`${username} just logged in`
+
+    }
 }
 
 // console.log(loginUserMessage("Gaurav"));
-console.log(loginUserMessage());
+// console.log(loginUserMessage());
 //when you don't give any value here the output will be undefined has logged in
 
+
+
+
+
+
+
+
+
 //test
+
+// input marks, if marks are 100...90 grade A
+//      70...80 grade B  60..70 grade C
+
+//  else if 
